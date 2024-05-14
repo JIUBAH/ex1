@@ -1,0 +1,1282 @@
+<style>
+.search__type{
+        -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    color: #151515;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0 0;
+}
+.search__type__item{
+        -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    color: #151515;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    vertical-align: top;
+    width: calc(25% - 5px);
+    cursor: pointer;
+}
+.search__type .search__type__item span {
+        -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    -webkit-text-size-adjust: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #ea6909;
+    color: #ea6909;
+    transition: all .2s ease-in-out;
+    text-transform: uppercase;
+    font-size: 16px;
+    }
+    .search__type .search__type__item.has-dropdown .dropdown__wrap {
+            -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    color: #151515;
+    -webkit-text-size-adjust: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    max-height: 500px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 20;
+        }
+        
+        .search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container {
+                -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    color: #151515;
+    -webkit-text-size-adjust: 100%;
+    cursor: pointer;
+    pointer-events: none;
+    box-sizing: border-box;
+    border-top: none;
+    background: #fff;
+            }
+            
+            .dropdown-columns {
+                    -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    color: #151515;
+    -webkit-text-size-adjust: 100%;
+    cursor: pointer;
+    pointer-events: none;
+    box-sizing: border-box;
+    column-count: 2;
+    padding: 15px 30px;
+                }
+                
+                .dropdown-columns a {
+                        -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    -webkit-text-size-adjust: 100%;
+    pointer-events: all;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #494949;
+    display: block;
+    padding: 0 0 5px;
+                    }
+                    .search__type .search__type__item a.dropdown-name.first {
+                            -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #ea6909;
+    font-size: 18px;
+    color: #ea6909;
+    transition: all .2s ease-in-out;
+    text-transform: uppercase;
+                        }
+                        
+                        .search__type .search__type__item a.dropdown-name.first:hover{
+                            -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 43px;
+    border: 1px solid #ea6909;
+    font-size: 18px;
+    transition: all .2s ease-in-out;
+    text-transform: uppercase;
+    background: #ea6909;
+    color: #fff;
+    text-decoration: none;
+                        }
+                        .search__type .search__type__item.has-dropdown .dropdown__wrap {
+                                -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    color: #151515;
+    -webkit-text-size-adjust: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    max-height: 500px;
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 20;
+    left: -327.5px;
+                            }
+                            
+                            .search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container {
+                                    -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    color: #151515;
+    -webkit-text-size-adjust: 100%;
+    cursor: pointer;
+    pointer-events: none;
+    box-sizing: border-box;
+    border-top: none;
+    background: #fff;
+                                }
+                                
+                                .dropdown-columns {
+                                        -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    color: #151515;
+    -webkit-text-size-adjust: 100%;
+    cursor: pointer;
+    pointer-events: none;
+    box-sizing: border-box;
+    column-count: 2;
+    padding: 15px 30px;
+                                    }
+                                    .dropdown-columns a {
+                                            -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --ui-icon-size-xs: 26px;
+    --ui-icon-size-sm: 31px;
+    --ui-icon-size-md: 39px;
+    --ui-icon-size-lg: 47px;
+    --ui-icon-size: 39px;
+    --ui-icon-service-bg-color: #ebeff2;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: Lato, sans-serif, tahoma!important;
+    -webkit-text-size-adjust: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #494949;
+    display: block;
+    padding: 0 0 5px;
+                                        }
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+.search__type {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	    margin: 15px 0 0;
+}
+
+.search__type .search__type__item {
+	display: inline-block;
+	position:relative;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	vertical-align: top;
+	width: calc(50% - 5px);
+	cursor: pointer;
+}
+
+@media (max-width:1024px) {
+	.search__type .search__type__item {
+		width: calc(50% - 10px);
+		margin-bottom: 20px
+	}
+}
+
+@media (max-width:750px) {
+	.search__type .search__type__item {
+		width: 100%;
+		margin-bottom: 10px
+	}
+}
+
+.search__type .search__type__item input:checked+span {
+	background: #ea6909;
+	color: #fff
+}
+
+.search__type .search__type__item span, .search__type .search__type__item a.dropdown-name.first {
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 100%;
+	height: 43px;
+	border: 1px solid #ea6909;
+	font-size: 18px;
+	color: #ea6909;
+	transition: all .2s ease-in-out;
+	text-transform: uppercase
+}
+
+@media (max-width:1320px) {
+	.search__type .search__type__item span {
+		font-size: 16px
+	}
+}
+
+@media (max-width: 750px){
+.search__type .search__type__item {
+    width: 100%;
+    margin-bottom: 10px;
+}
+}
+.search__type .search__type__item.has-dropdown:hover .dropdown__wrap {
+	opacity: 1;
+	pointer-events: auto;
+    border: 1px solid #ccc;
+	z-index: 920;
+	width: 600px;
+	-webkit-box-shadow: 0px 15px 20px 0px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow:    0px 15px 20px 0px rgba(50, 50, 50, 0.35);
+	box-shadow:         0px 15px 20px 0px rgba(50, 50, 50, 0.35);
+}
+/*.search__type__item:nth-child(4) .dropdown__wrap { */
+.search__type__item .dropdown__wrap {
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+@media (max-width:750px) {
+	.search__type .search__type__item.has-dropdown .dropdown__wrap {
+		position: inherit!important;
+		left: inherit!important;
+		pointer-events: inherit!important;
+		opacity: inherit!important;
+		z-index: inherit!important;
+		display:none;
+		width: inherit!important;
+	}
+	.dropdown-columns{
+		-webkit-column-count: 1!important;
+		-moz-column-count: 1!important;
+		column-count: 1!important;
+		padding: 15px 30px;
+	}
+	.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item.columns-2,
+	.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item.columns-3,
+	.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item.columns-4{
+		width: calc(100% / 2)!important;
+	}
+}
+
+.search__type .search__type__item.has-dropdown:hover .dropdown__wrap.scroll {
+overflow-y: scroll;
+    max-height: 662px;
+}
+
+.search__type .search__type__item.has-dropdown .dropdown__wrap {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	pointer-events: none;
+	opacity: 0;
+	z-index: 20
+}
+
+.dropdown-columns{
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+	padding: 15px 30px;
+}
+.dropdown-columns a {
+	color:#494949;
+	display: block;
+	padding: 0 0 5px;
+}
+
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container {
+border-top: none;
+    background: #fff;
+}
+
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item div {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    transition: all .2s ease-in-out;
+	height:100%;
+}
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item div a{color: #292929;}
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item div:hover {background: #ea6909;}
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item div:hover a{color: #fff;text-decoration:underline!important}
+
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item.columns-1 {width: calc(100% / 1)}
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item.columns-2 {width: calc(100% / 2)}
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item.columns-3 {width: calc(100% / 3)}
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item.columns-4 {width: calc(100% / 4)}
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown-container .dropdownmenu-item.columns-5 {width: calc(100% / 5)}
+
+
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown__list {
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.search__type .label-select .jq-selectbox__dropdown ul li,
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown__list li {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	padding-left: 20px;
+	color: #3a3939;
+	text-transform: uppercase;
+	font-size: 14px;
+	transition: all .2s ease-in-out;
+	white-space: normal
+}
+
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown__list li {
+	padding-right: 20px;
+	min-height: 60px
+}
+
+@media (max-width:1320px) {
+	.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown__list li {
+		padding-left: 10px
+	}
+}
+
+@media (max-width:750px) {
+	.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown__list li {
+		min-height: 40px
+	}
+}
+
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown__list li a {
+	display: block;
+	color: inherit;
+	font-size: 14px
+}
+
+.owl-carousel .owl-item img,
+.search__type .label-select .jq-selectbox {
+	display: block;
+	width: 100%
+}
+
+.search__type .label-select .jq-selectbox .jq-selectbox__select {
+	width: 100%;
+	height: 43px;
+	border: 1px solid #ea6909;
+	border-radius: 0;
+	box-shadow: none;
+	background: #ea6909;
+	display: block;
+	padding: 0
+}
+
+.search__type .label-select .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
+	text-shadow: none;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	height: 43px;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase
+}
+
+@media (max-width:1320px) {
+	.search__type .label-select .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
+		font-size: 16px
+	}
+}
+
+@media (max-width:750px) {
+	.search__type .label-select .jq-selectbox .jq-selectbox__select .jq-selectbox__select-text {
+		font-size: 14px
+	}
+}
+
+.search__type .label-select .jq-selectbox__trigger {
+	display: none!important
+}
+
+.search__type .label-select .jq-selectbox__dropdown ul {
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc
+}
+
+.search__type .label-select .jq-selectbox__dropdown ul li {
+	min-height: 40px
+}
+
+@media (max-width:1320px) {
+	.search__type .label-select .jq-selectbox__dropdown ul li {
+		padding-left: 10px
+	}
+}
+
+.search__type .label-select .jq-selectbox__dropdown ul li:first-child {
+	display: none
+}
+.footer__contacts__section:last-child,
+.search__type .label-select .jq-selectbox__dropdown ul li:last-child,
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown__list li:last-child {
+	margin-bottom: 0
+}
+.btn.btn-border:hover,
+.search__type .label-select .jq-selectbox__dropdown ul li:hover,
+.search__type .search__type__item span:hover, .search__type .search__type__item a.dropdown-name.first:hover,
+.search__type .search__type__item.has-dropdown .dropdown__wrap .dropdown__list li:hover {
+	background: #ea6909;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+</style>
+<div class="search__type ">
+				
+				
+
+					<div class="search__type__item has-dropdown"><a href="/catalog/typebody/" class="dropdown-name first">подборка по части тела</a>
+													<div class="dropdown__wrap">
+		<div class="dropdown-container">
+			<div class="dropdown-columns"> 
+									<a href="/catalog/product/filter/typebody-is-bedro/">Бедро</a>
+									<a href="/catalog/product/filter/typebody-is-bryushnoy-otdel/">Брюшной отдел</a>
+									<a href="/catalog/product/filter/typebody-is-golenostop/">Голеностоп</a>
+									<a href="/catalog/product/filter/typebody-is-golen/">Голень</a>
+									<a href="/catalog/product/filter/typebody-is-grud/">Грудь</a>
+									<a href="/catalog/product/filter/typebody-is-zhivot/">Живот</a>
+									<a href="/catalog/product/filter/typebody-is-zapyaste/">Запястье</a>
+									<a href="/catalog/product/filter/typebody-is-kist/">Кисть</a>
+									<a href="/catalog/product/filter/typebody-is-klyuchitsa/">Ключица</a>
+									<a href="/catalog/product/filter/typebody-is-koleno/">Колено</a>
+									<a href="/catalog/product/filter/typebody-is-kresttsovyy-otdel/">Крестцовый отдел</a>
+									<a href="/catalog/product/filter/typebody-is-palm/">Ладонь</a>
+									<a href="/catalog/product/filter/typebody-is-lodyzhka/">Лодыжка</a>
+									<a href="/catalog/product/filter/typebody-is-lokot/">Локтевой сустав </a>
+									<a href="/catalog/product/filter/typebody-is-noga/">Нога</a>
+									<a href="/catalog/product/filter/typebody-is-paltsy-nog/">Пальцы ног</a>
+									<a href="/catalog/product/filter/typebody-is-paltsy-ruk/">Пальцы рук</a>
+									<a href="/catalog/product/filter/typebody-is-pakh/">Пах</a>
+									<a href="/catalog/product/filter/typebody-is-plecho/">Плечо</a>
+									<a href="/catalog/product/filter/typebody-is-pozvonochnik/">Позвоночник</a>
+									<a href="/catalog/product/filter/typebody-is-poyas/">Пояс</a>
+									<a href="/catalog/product/filter/typebody-is-poyasnitsa/">Поясница</a>
+									<a href="/catalog/product/filter/typebody-is-predpleche/">Предплечье</a>
+									<a href="/catalog/product/filter/typebody-is-pupok/">Пупок</a>
+									<a href="/catalog/product/filter/typebody-is-pyatka/">Пятка</a>
+									<a href="/catalog/product/filter/typebody-is-ruka/">Рука</a>
+									<a href="/catalog/product/filter/typebody-is-spina/">Спина</a>
+									<a href="/catalog/product/filter/typebody-is-stopa/">Стопа</a>
+									<a href="/catalog/product/filter/typebody-is-suhozhilija/">Сухожилий</a>
+									<a href="/catalog/product/filter/typebody-is-taz/">Таз</a>
+									<a href="/catalog/product/filter/typebody-is-tazobedrennyy-sustav/">Тазобедренный сустав</a>
+									<a href="/catalog/product/filter/typebody-is-falangi-paltsev/">Фаланги пальцев</a>
+							</div>
+		</div>
+	</div>
+					</div>
+					<div class="search__type__item has-dropdown"><a href="/catalog/typeillness/" class="dropdown-name first">подборка по болезни</a>
+													<div class="dropdown__wrap" style="left:-327.5px">
+		<div class="dropdown-container">
+			<div class="dropdown-columns"> 
+									<a href="/catalog/product/filter/typeillness-is-adgezivnyy-kapsulit/">Адгезивный капсулит</a>
+									<a href="/catalog/product/filter/typeillness-is-artrit/">Артрит</a>
+									<a href="/catalog/product/filter/typeillness-is-artroz/">Артроз</a>
+									<a href="/catalog/product/filter/typeillness-is-artroskopiya/">Артроскопия</a>
+									<a href="/catalog/product/filter/typeillness-is-beremennost/">Беременность</a>
+									<a href="/catalog/product/filter/typeillness-is-boli/">Боли</a>
+									<a href="/catalog/product/filter/typeillness-is-bursit/">Бурсит</a>
+									<a href="/catalog/product/filter/typeillness-is-valgusnaya-deformatsiya/">Вальгусная деформация</a>
+									<a href="/catalog/product/filter/typeillness-is-vospalitelnyy-protsess/">Воспалительный процесс</a>
+									<a href="/catalog/product/filter/typeillness-is-posleoperatsionnyy/">Восстановлении в послеоперационный период</a>
+									<a href="/catalog/product/filter/typeillness-is-polostnaya-operatsiya/">Восстановлении после полостной операции</a>
+									<a href="/catalog/product/filter/typeillness-is-vyvikh/">Вывих</a>
+									<a href="/catalog/product/filter/typeillness-is-vypadenie/">Выпадение</a>
+									<a href="/catalog/product/filter/typeillness-is-vyalyy-paralich/">Вялый паралич</a>
+									<a href="/catalog/product/filter/typeillness-is-gemartroz/">Гемартроз</a>
+									<a href="/catalog/product/filter/typeillness-is-gemmoroy/">Геморрой</a>
+									<a href="/catalog/product/filter/typeillness-is-gipermobilnost/">Гипермобильность</a>
+									<a href="/catalog/product/filter/typeillness-is-gryzha/">Грыжа</a>
+									<a href="/catalog/product/filter/typeillness-is-diabeticheskaya-stopa/">Диабетическая стопа</a>
+									<a href="/catalog/product/filter/typeillness-is-displaziya/">Дисплазия</a>
+									<a href="/catalog/product/filter/typeillness-is-dtsp/">ДЦП</a>
+									<a href="/catalog/product/filter/typeillness-is-spina-bifida/">Заболевании Спина Бифида</a>
+									<a href="/catalog/product/filter/typeillness-is-zamena-gipsovoy-povyazke/">Замена гипсовой повязке</a>
+									<a href="/catalog/product/filter/typeillness-is-immobilizatsiya/">Иммобилизация</a>
+									<a href="/catalog/product/filter/typeillness-is-impidzhment-sindrom/">Импиджмент синдром</a>
+									<a href="/catalog/product/filter/typeillness-is-insultn-gemiparez-gemiplegiya/">Инсульте. гемипарез/гемиплегия</a>
+									<a href="/catalog/product/filter/typeillness-is-infektsiya/">Инфекция</a>
+									<a href="/catalog/product/filter/typeillness-is-iskrivlenie/">Искривление</a>
+									<a href="/catalog/product/filter/typeillness-is-kifoz/">Кифоз</a>
+									<a href="/catalog/product/filter/typeillness-is-kolostomii-ileostomii/">Колостомии, илеостомии</a>
+									<a href="/catalog/product/filter/typeillness-is-kontraktura-dyupyuitrena/">Контрактура Дюпюитрена</a>
+									<a href="/catalog/product/filter/typeillness-is-kontrol-ugla-sgibaniya-razgibaniya/">Контроль угла сгибания/разгибания</a>
+									<a href="/catalog/product/filter/typeillness-is-lyumbago/">Люмбаго</a>
+									<a href="/catalog/product/filter/typeillness-is-metastazy/">Метастазы</a>
+									<a href="/catalog/product/filter/typeillness-is-mozoli/">Мозоли</a>
+									<a href="/catalog/product/filter/typeillness-is-myshechnaya-slabost/">Мышечная слабость</a>
+									<a href="/catalog/product/filter/typeillness-is-nagruzka/">Нагрузка</a>
+									<a href="/catalog/product/filter/typeillness-is-nestabilnost/">Нестабильность</a>
+									<a href="/catalog/product/filter/typeillness-is-osgud-shlyattera/">Осгуда Шляттера</a>
+									<a href="/catalog/product/filter/typeillness-is-osteoartroz/">Остеоартроз</a>
+									<a href="/catalog/product/filter/typeillness-is-osteoartroz kisti/">Остеоартроз кисти</a>
+									<a href="/catalog/product/filter/typeillness-is-osteoporoz/">Остеопороз</a>
+									<a href="/catalog/product/filter/typeillness-is-osteokhondroz/">Остеохондроз</a>
+									<a href="/catalog/product/filter/typeillness-is-otvisanie-stopy/">Отвисание стопы</a>
+									<a href="/catalog/product/filter/typeillness-is-oteki/">Отеки</a>
+									<a href="/catalog/product/filter/typeillness-is-paralich/">Паралич</a>
+									<a href="/catalog/product/filter/typeillness-is-perelom/">Перелом</a>
+									<a href="/catalog/product/filter/typeillness-is-perelom-benneta/">Перелом Беннета</a>
+									<a href="/catalog/product/filter/typeillness-is-ploskostopie/">Плоскостопие</a>
+									<a href="/catalog/product/filter/typeillness-is-povrezhdenie-akhillova-sukhozhiliya/">Повреждение ахиллова сухожилия</a>
+									<a href="/catalog/product/filter/typeillness-is-povrezhdenie-bankarta/">Повреждение Банкарта</a>
+									<a href="/catalog/product/filter/typeillness-is-povrezhdenie-myagkikh-tkaney/">Повреждение мягких тканей</a>
+									<a href="/catalog/product/filter/typeillness-is-povrezhdenie-svyazok-1st/">Повреждение связок 1ст</a>
+									<a href="/catalog/product/filter/typeillness-is-povrezhdenie-svyazok-2st/">Повреждение связок 2ст</a>
+									<a href="/catalog/product/filter/typeillness-is-povrezhdenie-svyazok3st/">Повреждение связок 3ст</a>
+									<a href="/catalog/product/filter/typeillness-is-podvyvikh/">Подвывих</a>
+									<a href="/catalog/product/filter/typeillness-is-podderzhka-v-funkts-polozhenii/">Поддержка в функц. Положении</a>
+									<a href="/catalog/product/filter/typeillness-is-poslerodovyy-period/">Послеродовый период</a>
+									<a href="/catalog/product/filter/typeillness-is-posttravmaticheskaya-neyropatiya/">Посттравматическая нейропатия</a>
+									<a href="/catalog/product/filter/typeillness-is-predlezhanie/">Предлежание</a>
+									<a href="/catalog/product/filter/typeillness-is-prolezhni/">Пролежни</a>
+									<a href="/catalog/product/filter/typeillness-is-protezirovanie/">Протезирование</a>
+									<a href="/catalog/product/filter/typeillness-is-protruziya/">Протрузия</a>
+									<a href="/catalog/product/filter/typeillness-is-pupochnaja-gryzha-novorozhdennyh/">Пупочная грыжа новорожденных</a>
+									<a href="/catalog/product/filter/typeillness-is-razryvy/">Разрывы</a>
+									<a href="/catalog/product/filter/typeillness-is-rastyazhenie/">Растяжение</a>
+									<a href="/catalog/product/filter/typeillness-is-revmatizm/">Ревматизм</a>
+									<a href="/catalog/product/filter/typeillness-is-revmatoidnii-artrit/">Ревматоидный артрит</a>
+									<a href="/catalog/product/filter/typeillness-is-rizartroz/">Ризартроз</a>
+									<a href="/catalog/product/filter/typeillness-is-svishchi/">Свищи</a>
+									<a href="/catalog/product/filter/typeillness-is-sindrom-khaglunda/">Синдром Хаглунда</a>
+									<a href="/catalog/product/filter/typeillness-is-skolioz/">Сколиоз</a>
+									<a href="/catalog/product/filter/typeillness-is-skolioz u rebenka/">Сколиоз у ребенка</a>
+									<a href="/catalog/product/filter/typeillness-is-skoplenie-zhidkosti-v-sustave/">Скопление жидкости в суставе</a>
+									<a href="/catalog/product/filter/typeillness-is-spondilartroz/">Спондилоартрозе</a>
+									<a href="/catalog/product/filter/typeillness-is-sportivnye-travmy/">Спортивные травмы</a>
+									<a href="/catalog/product/filter/typeillness-is-tendinit/">Тендинит</a>
+									<a href="/catalog/product/filter/typeillness-is-travma/">Травма</a>
+									<a href="/catalog/product/filter/typeillness-is-palets-lyzhnika/">Травме Палец лыжника</a>
+									<a href="/catalog/product/filter/typeillness-is-tunnelnyy-sindrom/">Туннельный синдром</a>
+									<a href="/catalog/product/filter/typeillness-is-ushib/">Ушиб</a>
+									<a href="/catalog/product/filter/typeillness-is-fastsiit/">Фасциит</a>
+									<a href="/catalog/product/filter/typeillness-is-shpora/">Шпора</a>
+									<a href="/catalog/product/filter/typeillness-is-epikondilit/">Эпикондилит</a>
+							</div>
+		</div>
+	</div>
+					</div>
+
+					
+				</div>
+                
+                <style>
+/* Start:/bitrix/templates/.default/components/bitrix/news.list/rubricator/style.css?15885858531431*/
+.rubricator-desktop{
+		position: relative;
+		padding-bottom: 56%; 
+		padding-top: 25px;
+		height: 0;
+		max-width:910px;
+		margin: 0 auto;
+		display:none;
+	}
+	.rubricator-mobile{
+		display:none;
+		columns: 2;
+		column-gap: 30px;
+	}
+	.rubricator-mobile a{display:block;font-size: 18px;}
+	.rubricator-desktop .rubricator-container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background:url(assets/imgs/bg-human.webp);
+        background-repeat: no-repeat;
+	}
+	.rubricator-desktop .block {
+		position: absolute;
+		padding: 5px 10px;
+		border: solid 1px #ea6909;
+		border-radius:5px;
+		background: #fff;
+	}
+	.rubricator-desktop #block1{top:6%;right:72%}
+	.rubricator-desktop #block2{top: 4%;left: 59%;}
+	.rubricator-desktop #block3{top: 19%;left: 63%;}
+	.rubricator-desktop #block4{top: 20%;right: 72%;}
+	.rubricator-desktop #block5{top: 26%;left: 66%;}
+	.rubricator-desktop #block6{top: 41%;left: 74%;}
+	.rubricator-desktop #block7{top: 56%;right: 79%;}
+	.rubricator-desktop #block8{top: 36%;right: 80%;}
+	.rubricator-desktop #block9 {top: 56%;left: 73%;}
+	.rubricator-desktop #block10{top: 64%;right: 66%;}
+	.rubricator-desktop #block11{top: 69%;left: 64%;}
+	.rubricator-desktop #block12{top: 82%;right: 54%;}
+
+	.rubricator-desktop .block a {
+		display: block;
+        font-size: 16px;
+        text-decoration: none;
+        cursor: pointer;
+        line-height: 1.5;
+	}
+    .cont{
+        width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+	@media all and (min-width:1200px){
+		.rubricator-desktop{
+			display:block;
+		}
+	}
+	@media all and (max-width:1099px){
+		.rubricator-mobile{
+			display:block;
+		}
+	}
+/* End */
+@media all and (min-width: 576px){
+.cont {
+    max-width: 540px;
+}
+}
+@media all and (min-width: 768px){
+.cont {
+    max-width: 720px;
+}
+}
+@media all and (min-width: 992px){
+.cont {
+    max-width: 960px;
+}
+}
+@media all and (min-width: 1200px){
+.cont {
+    max-width: 1140px;
+}
+}
+
+
+
+</style>
+                <div class="cont" style="">
+                
+                <div class="rubricator-desktop">
+	<div class="rubricator-container">
+					<div class="block" id="block1">
+										<a href="/catalog/product/filter/typebody-is-klyuchitsa/">Ключица</a>
+											<a href="/catalog/product/filter/typebody-is-plecho/">Плечо</a>
+								</div>
+					<div class="block" id="block2">
+										<a href="/catalog/product/filter/typebody-is-Ladon/">Ладонь</a>
+											<a href="/catalog/product/filter/typebody-is-paltsy-ruk/">Пальцы рук</a>
+											<a href="/catalog/product/filter/typebody-is-falangi-paltsev/">Фаланги пальцев</a>
+								</div>
+					<div class="block" id="block3">
+										<a href="/catalog/product/filter/typebody-is-grud/">Грудь</a>
+								</div>
+					<div class="block" id="block4">
+										<a href="/catalog/product/filter/typebody-is-pozvonochnik/">Позвоночник</a>
+											<a href="/catalog/product/filter/typebody-is-spina/">Спина</a>
+								</div>
+					<div class="block" id="block5">
+										<a href="/catalog/product/filter/typebody-is-lokot/">Локоть</a>
+											<a href="/catalog/product/filter/typebody-is-predpleche/">Предплечье</a>
+											<a href="/catalog/product/filter/typebody-is-ruka/">Рука</a>
+								</div>
+					<div class="block" id="block6">
+										<a href="/catalog/product/filter/typebody-is-bryushnoy-otdel/">Брюшной отдел</a>
+											<a href="/catalog/product/filter/typebody-is-zhivot/">Живот</a>
+											<a href="/catalog/product/filter/typebody-is-pupok/">Пупок</a>
+								</div>
+					<div class="block" id="block7">
+										<a href="/catalog/product/filter/typebody-is-kresttsovyy-otdel/">Крестцовый отдел</a>
+											<a href="/catalog/product/filter/typebody-is-pakh/">Пах</a>
+											<a href="/catalog/product/filter/typebody-is-poyas/">Пояс</a>
+											<a href="/catalog/product/filter/typebody-is-poyasnitsa/">Поясница</a>
+											<a href="/catalog/product/filter/typebody-is-taz/">Таз</a>
+								</div>
+					<div class="block" id="block8">
+										<a href="/catalog/product/filter/typebody-is-zapyaste/">Запястье</a>
+											<a href="/catalog/product/filter/typebody-is-kist/">Кисть</a>
+								</div>
+					<div class="block" id="block9">
+										<a href="/catalog/product/filter/typebody-is-golen/">Голень</a>
+											<a href="/catalog/product/filter/typebody-is-koleno/">Колено</a>
+								</div>
+					<div class="block" id="block10">
+										<a href="/catalog/product/filter/typebody-is-bedro/">Бедро</a>
+								</div>
+					<div class="block" id="block11">
+										<a href="/catalog/product/filter/typebody-is-golenostop/">Голеностоп</a>
+											<a href="/catalog/product/filter/typebody-is-lodyzhka/">Лодыжка</a>
+											<a href="/catalog/product/filter/typebody-is-suhozhilija/">Сухожилие</a>
+								</div>
+					<div class="block" id="block12">
+										<a href="/catalog/product/filter/typebody-is-paltsy-nog/">Пальцы ног</a>
+											<a href="/catalog/product/filter/typebody-is-pyatka/">Пятка</a>
+											<a href="/catalog/product/filter/typebody-is-stopa/">Стопа</a>
+								</div>
+			</div>
+</div>
+</div>
